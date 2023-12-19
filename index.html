@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/src/main.ts"></script>
+    <script
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+      defer
+    ></script>
+    <title>FCC Choropleth Map</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">United States Educational Attainment</h1>
+      <h3 id="description">
+        Educational attainment for adults age 25 and older for the U.S., States,
+        and counties, 1970-2014
+        <a
+          href="https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          *Source
+        </a>
+      </h3>
+    </header>
+    <div
+      id="app"
+      style="position: relative; display: grid; place-items: center"
+    >
+      <div
+        id="tooltip"
+        style="
+          position: absolute;
+          display: none;
+          background-color: white;
+          border: 1px solid black;
+          border-radius: 8px;
+          padding: 1rem;
+        "
+      ></div>
+    </div>
+  </body>
+</html>

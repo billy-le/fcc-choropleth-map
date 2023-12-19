@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 80px;
+}
+
+#title {
+  text-align: center;
+  font-size: 24px;
+}
+
+#description {
+  text-align: center;
+  font-size: 16px;
+  color: slategray;
+
+  a {
+    text-decoration: none;
+
+    &:visited {
+      color: cornflowerblue;
+    }
+  }
+}

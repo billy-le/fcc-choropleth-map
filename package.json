@@ -1,0 +1,23 @@
+{
+  "name": "fcc-choropleth-map",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/topojson-client": "^3.1.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "@types/d3": "^7.4.3",
+    "d3": "^7.8.5",
+    "lodash": "^4.17.21",
+    "topojson-client": "^3.1.0"
+  }
+}
